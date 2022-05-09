@@ -8,12 +8,20 @@
 @import "../components/mouse.css";
 @import "../components/progress-bar.css";
 
+.coming-soon {
+  padding-bottom: 30px;
+}
+
 .coming-soon > .row-short {
   text-align: center;
 }
 
-.logo {
-  padding-bottom: 45px;
+.coming-soon .logo {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 45px;
+  object-fit: contain;
+  object-position: center;
 }
 .main-title {
   font-size: 45px;
@@ -27,6 +35,10 @@
   padding-bottom: 45px;
 }
 
-.clock {
-  margin-bottom: 45px;
+.coming-soon .clock {
+  margin-bottom: 30px;
+}
+
+.coming-soon .form {
+  margin-bottom: 15px;
 }
