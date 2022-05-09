@@ -9,7 +9,12 @@
 @import "../components/progress-bar.css";
 
 .coming-soon {
+  min-height: 100vh;
   padding-bottom: 30px;
+  background-image: url(../../img/banner-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .coming-soon > .row-short {
