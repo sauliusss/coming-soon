@@ -52,6 +52,10 @@
   margin-bottom: 20px;
 }
 
+.column > *:last-child {
+  margin-bottom: 0px;
+}
+
 .section-title {
   text-transform: uppercase;
   font-size: 20px;
@@ -62,6 +66,17 @@
 .content-desription {
   font-size: 17px;
   margin-bottom: 30px;
+  color: grey;
+}
+
+.content-desription > a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.content-desription > a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
 .progress-bar {
