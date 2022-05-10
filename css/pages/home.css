@@ -78,7 +78,3 @@
   color: var(--primary-color);
   text-decoration: underline;
 }
-
-.progress-bar {
-  margin-bottom: 20px;
-}
