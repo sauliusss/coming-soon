@@ -1,9 +1,13 @@
 .btn {
   padding: 0.7em 1.5em;
   font-size: 17px;
-  background-color: #e91e63;
+  background-color: var(--secondary-color);
   color: #fff;
-  border: 0.1em solid red;
+  border: none;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color-dark);
 }
