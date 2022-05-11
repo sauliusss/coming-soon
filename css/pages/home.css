@@ -46,6 +46,15 @@
 
 .coming-soon .form {
   margin-bottom: 15px;
+  width: 90%;
+  margin: 0 5% 15%;
+}
+.coming-soon .form > .input {
+  color: #fff;
+  border-color: currentColor;
+}
+.coming-soon .form > .input::placeholder {
+  color: currentColor;
 }
 
 .column > * {
@@ -77,4 +86,14 @@
 .content-desription > a:hover {
   color: var(--primary-color);
   text-decoration: underline;
+}
+
+@media (min-width: 900px) {
+  main .form > input.input {
+    width: calc(50% - 10px);
+  }
+
+  main .form > input.input:last-of-type {
+    float: right;
+  }
 }
