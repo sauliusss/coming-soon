@@ -2,6 +2,8 @@
 @import "../base/variables.css";
 @import "../base/layout.css";
 
+@import "../components/font-awesome.min.css";
+
 @import "../components/button.css";
 @import "../components/clock.css";
 @import "../components/form.css";
