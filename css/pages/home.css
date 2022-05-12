@@ -103,3 +103,29 @@ main .form > button {
     float: right;
   }
 }
+
+footer.container {
+  padding-top: 0;
+}
+
+.socials {
+  padding: 15px 0;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+}
+
+.socials > .fa {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 1s;
+}
+
+.socials > .fa:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+}
