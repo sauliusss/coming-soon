@@ -107,11 +107,11 @@ main .form > button {
 footer.container {
   padding-top: 0;
   text-align: center;
+  color: #fff8;
 }
 
 .socials {
   padding: 15px 0;
-
   border-bottom: 2px solid #fff;
 }
 
@@ -137,8 +137,38 @@ footer.container {
 
 footer .logo {
   max-height: 50px;
-  width: 100%;
   margin: 50px;
   object-fit: contain;
   object-position: top;
+}
+
+footer .trio {
+  display: inline-block;
+}
+
+footer .trio > p::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 70%;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+footer .trio > p:first-child::before {
+  display: none;
+}
+
+footer .trio > p {
+  float: left;
+  padding: 0 10px;
+  position: relative;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: none;
 }
