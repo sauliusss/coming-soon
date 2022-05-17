@@ -20,3 +20,9 @@
 .btn:hover {
   background-color: var(--secondary-color-dark);
 }
+
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
