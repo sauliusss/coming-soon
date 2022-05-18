@@ -17,10 +17,10 @@
 }
 
 .btn.btn-round {
-  border-radius: 1.3em;
+  border-radius: 1.5em;
 }
 
-.btn .btn-round.btn-icon {
+.btn.btn-round.btn-icon {
   width: 1.3em;
   height: 1.3em;
   font-size: 40px;
